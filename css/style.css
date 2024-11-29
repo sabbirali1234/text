@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "MYRIADPRO";
+    src:
+    url("../font/MYRIADPRO-BOLD.OTF"),url()
+      
+     
+  }
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+@media (min-width:1440px) {
+    .container{
+        max-width: 1160px;
+        width: 1140px;
+        margin: auto;
+        padding: 0px 10px;
+    }
+}
+
+.cmn-btn{
+    
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #fcc302;
+    padding: 25px 30px;
+    border-radius: 7px;
+    margin: 80px 0px 0px 0px;
+    display: inline-block;
+}
+
+.cmn-head{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #313243;
+}
+
+/* nav-sec */
+
+@media (max-width:1200px) and (min-width:991px){
+    .nav-child-div ul li{
+        padding: 0px 10px !important;
+    }
+    .nav-child-div ul{
+        padding-left: 0px !important;
+    }
+    .nav-child-div ul li a{
+        font-size: 20px !important;
+    }
+    .nav-child-div input{
+        padding: 18px 80px 17px 10px !important;
+    }
+    .nav-child-div a img{
+        width: 150px;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px){
+    .nav-child-div ul li{
+        padding: 0px 7px !important;
+    }
+    .nav-child-div ul{
+        padding-left: 0px !important;
+    }
+    .nav-child-div ul li a{
+        font-size: 15px !important;
+    }
+    .nav-child-div input{
+        padding: 18px 40px 17px 10px !important;
+    }
+    .nav-child-div a img{
+        width: 130px;
+    }
+}
+
+
+.nav-sec{
+    background-color: #daac00;
+    padding: 30px 0px;
+}
+
+
+.nav-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-child-div ul {
+    display: flex;
+}
+
+.nav-child-div ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-child-div ul li a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 29px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.input-1{
+    padding: 18px 0px 17px 19px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffbee !important;
+    background-color: #fcc302;
+}
+
+.fa-magnifying-glass{
+    padding: 24.5px 25px;
+    background-color: #00bec9;
+    color: #ffffff;
+    position: absolute;
+    margin: 0px 0px 0px -66px;
+}
+
+.nav-child-div17{
+    display: none;
+}
+.nav-child-div17 ul{
+    flex-direction: column;
+}
+
+.toggol-bar{
+    display: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.input-2{
+    padding: 18px 20px 17px 10px !important;
+}
+
+@media (max-width:767px) and (min-width:01px){
+    .toggol-bar{
+        display: block;
+    }
+    .nav-child-div4{
+        display: none;
+    }
+}
+
+
+/* banner-sec */
+
+@media(max-width:500px) and (min-width:01px){
+  .banner-child-div h1{
+    font-size: 55px !important; 
+  }
+  .banner-child-div img{
+    width: 320px;
+  }
+  .banner-btn1{
+    margin-top: -10px !important;
+  }
+  .banner-btn2{
+    margin-top: 10px !important;
+  }
+}
+
+
+.banner-sec{
+    padding: 90px 0px 100px 0px;
+    background: #fcc302;
+}
+
+.banner-child-div{
+    margin: 20px 0px 0px 0px !important;
+  }
+
+.banner-child-div h1{
+    font-family: 'MYRIADPRO';
+    font-size: 66px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0px 0px 40px 0px;
+}
+
+.banner-child-div p{
+    font-family: 'MYRIADPRO';
+    font-size: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 570px;
+}
+
+.banner-btn1{
+    text-decoration: none;
+    display: inline-block ;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #00bec9;
+    padding: 25px 30px;
+    border-radius: 7px;
+    margin: 75px 35px 0px 0px;
+}
+
+.banner-btn2{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 19px 26px;
+    border-radius: 7px;
+    border: 3px solid #ffffff;
+    margin-top: 75px;
+    display: inline-block;
+}
+
+/* As a veterinarine and lover of animals */
+
+@media (max-width:575px) and (min-width:01px){
+    .animals-inner{
+        margin: -170px 20px 0px 0px !important;
+    }
+    .animals-child-div img{
+        width: 336px !important;
+        height: 261px !important;
+    }
+    .fa-play{
+        margin: 105px 0px 20px 140px !important;
+    }
+
+}
+
+.animals-sec{
+    padding: 140px 0px;
+}
+
+.animals-child-div{
+    margin-bottom: 20px;
+}
+
+
+.animals-child-div p{
+    font-family: "Poppins", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    color: #313243;
+}
+
+.animals-inner{
+    width: 255px;
+    height: 205px;
+    background-color: #fcc302;
+    position: relative;margin: -170px 0px 0px -40px;
+    z-index: -1;
+}
+
+.fa-play{
+    display: inline-block;
+    position: absolute;
+    margin: 210px 0px 20px 240px;
+    padding: 20px 23px;
+    background-color: #ffffff;
+    color: #daac00;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.animals-child-div img{
+    width: 100% ;
+}
+
+
+
+
+/* titel here */
+
+.titel-sec{
+    background-color: #fcc302;
+    padding: 100px 0px;
+}
+
+.titel-child-div img{
+    width: 100%;
+}
+
+.titel-top-div p{
+    max-width: 737px;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    color: #ffffff;
+    display: inline-block;
+    padding-bottom: 80px;
+}
+
+.titel-top-div h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.titel-child-div h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 50px 0px 10px 0px;
+}
+
+.titel-child-div p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+/* As a veterinarine and lover of animals */
+
+
+@media (max-width:1400px) and (min-width:1200px){
+    .animals-1-inner{
+        margin: -170px 0px 0px 330px !important;
+    }
+}
+@media (max-width:1199px) and (min-width:992px){
+    .animals-1-inner{
+        margin: -170px 0px 0px 240px !important;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .animals-1-inner{
+        margin: -170px 0px 0px 480px !important;
+    }
+}
+@media (max-width:767px) and (min-width:576px){
+    .animals-1-inner{
+        margin: -170px 0px 0px 300px !important;
+    }
+}
+@media (max-width:575px) and (min-width:01px){
+    .animals-1-inner{
+        margin: -170px -20px 0px 66px !important;
+    }
+    .animals-1-child-div img{
+        width: 336px !important;
+        height: 261px !important;
+    }
+
+    .fa-play{
+        margin: 105px 0px 20px 140px !important;
+    }
+
+}
+
+
+.animals-1-sec{
+    padding: 140px 0px;
+}
+
+.animals-1-child-div{
+    margin-bottom: 20px;
+}
+
+.animals-1-child-div img{
+    width: 100% ;
+}
+
+.animals-1-child-div p{
+    font-family: "Poppins", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    color: #313243;
+}
+
+.animals-1-inner{
+    width: 255px;
+    height: 205px;
+    background-color: #fcc302;
+    position: relative;
+    margin: -170px 0px 0px 420px;
+    z-index: -1;
+}
+
+.fa-play1{
+    display: inline-block;
+    position: absolute;
+    margin: 265px 0px 0px 290px;
+    padding: 20px 23px;
+    background-color: #ffffff;
+    color: #daac00;
+    border-radius: 50%;
+    font-size: 25px;
+    transform: rotate(70deg);
+}
+
+
+/* titel-1-here */
+
+.titel-1-sec{
+    background-color: #fcc302;
+    padding: 100px 0px;
+}
+
+.titel-1-child-div{
+    margin-bottom: 20px;
+}
+
+.titel-1-child-div img{
+    width: 100%;
+}
+
+.titel-1-top-div p{
+    max-width: 737px;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    color: #ffffff;
+    display: inline-block;
+    padding-bottom: 80px;
+}
+
+.titel-1-top-div h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.titel-1-child-div a{
+    text-decoration: none;
+    padding: 18px 45px;
+    color: #ffffff;
+    background-color: #00bec9;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.titel-1-span{
+    text-decoration: line-through;
+    
+}
+
+.titel-1-child-div span{
+    padding: 20px;
+}
+
+.titel-1-child-div h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 41px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 40px 0px 0px 35px;
+}
+
+
+
+
+/* The-vetcare-team */
+
+
+.team-sec{
+    padding: 100px 0px;
+}
+
+.team-child-div img{
+    width: 100%;
+}
+
+.team-top-div p{
+    max-width: 737px;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    color: #313243;
+    display: inline-block;
+    padding-bottom: 80px;
+}
+
+.team-top-div h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: team;
+    padding-bottom: 30px;
+}
+
+.team-child-div h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color:#313243;
+    padding: 40px 0px 5px 0px;
+}
+
+.team-child-div span{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color:#313243;
+}
+
+.team-icon{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #daac00;
+    margin: 20px 7px;
+}
+
+.fa-facebook-f{
+    padding: 10px 12px;
+}
+
+/* card-sec */
+
+.card-sec{
+    padding: 164px 0px;
+    background-image: url('../image/card-bg.svg');
+}
+
+.card-child-div{
+    margin-bottom: 20px;
+}
+
+.card-child-div span{
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 41px;
+    font-weight: 500;
+    color:#ffffff;
+    padding: 60px 0px 20px 0px;
+}
+
+.card-child-div h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+
+/* Recent-posts*/
+
+@media (max-width:991px) and (min-width:01px){
+  .team-main-div{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-main-div{
+    display: flex;
+    justify-content: center;
+  }
+  .titel-1-main-div{
+    display: flex;
+    justify-content: center;
+  }
+  .titel-main-div{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+.Recent-sec{
+    padding: 100px 0px;
+}
+
+.Recent-child-div img{
+    width: 100%;
+}
+
+.Recent-top-div p{
+    max-width: 737px;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    color: #313243;
+    display: inline-block;
+    padding-bottom: 80px;
+}
+
+.Recent-top-div h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: #313243;
+    padding-bottom: 30px;
+}
+
+.team-child-div{
+    margin-bottom: 20px;
+}
+
+.team-child-div h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color:#313243;
+    padding: 35px 0px 5px 0px;
+}
+
+.team-child-div span{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#11c2cd;
+}
+.team-child-div p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#4c4d5c;
+    padding: 30px 0px 20px 0px;
+
+}
+
+.team-child-div a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color:#11c2cd;
+}
+
+.team-child-1{
+    margin-top: -2px;
+    border: 2px solid #d6d6d6;
+    padding: 0px 30px 30px 30px;
+}
+
+.div-1{
+    width: 100%;
+    /* height: 100%; */
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 10px 10px #efefef;
+}
+
+.team-child-2{
+    /* box-shadow: 0px 0px 10px 10px #efefef; */
+    /* padding: 0px 0px !important; */
+    margin: 0px 0px;
+}
+
+
+/* footer-sec */
+
+@media (max-width:1400px) and (min-width:1200px){
+    .footer-form{
+        padding: 18px 40px 17px 15px !important;
+    }
+}
+
+@media (max-width:1199px) and (min-width:991px){
+    .footer-form{
+        padding: 18px 40px 17px 10px !important;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .footer-form{
+        padding: 18px 40px 17px 10px !important;
+    }
+    .footer-main-div{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-child{
+        text-align: center !important;
+    }
+}
+@media (max-width:767px) and (min-width:01px){
+    .footer-form{
+        padding: 18px 20px 17px 10px !important;
+    }
+    .footer-child{
+        text-align: justify !important;
+    }
+}
+
+.footer-sec{
+    padding: 100px 0px;
+    background-color: #343434;
+}
+
+.footer-child-div span{
+    font-family: "Poppins", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color:#ffffff;
+    padding-bottom: 27px;
+    display: inline-block;
+}
+
+.footer-child-div ul{
+    padding-left: 0px;
+}
+
+.footer-child-div ul li{
+    list-style: none;
+    padding: 7px 0px;
+}
+
+.footer-child-div ul li a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color:#ffffff;
+}
+.footer-child{
+    text-align: end;
+}
+
+.footer-child-div p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color:#ffffff;
+}
+
+.footer-child-div{
+    margin-bottom: 20px;
+}
+
+.team-icon1{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 44px 7px;
+}
+
+.fa-facebook-f{
+    padding: 10px 12px;
+}
+
+.footer-form{
+    padding: 18px 0px 17px 19px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fffbee !important;
+    background-color: #fcc302;
+    margin-top: 35px;
+}
+
+.fa-location-arrow{
+    padding: 19.6px 24px;
+    background-color: #00bec9;
+    color: #ffffff;
+    position: absolute;
+    margin: 35px 0px 0px -69px;
+    font-size: 26px;
+}
